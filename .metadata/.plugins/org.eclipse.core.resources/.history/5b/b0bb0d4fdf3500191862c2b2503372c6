@@ -1,0 +1,23 @@
+package br.com.fiap.entity;
+
+import java.util.Calendar;
+
+/**
+ * 
+ * T_EMPRESA
+ * 		*cd_empresa (NUMBER)  (PK) (Sequence SQ_T_EMPRESA)
+ * 		*nm_fantasia (VARCHAR(50))
+ *		 dt_abertura (DATE)
+ *       ds_status   (VARCHAR) (Enum)
+ *      *nr_cnpj (VARCHAR(18))
+ */
+
+public class Empresa {
+	
+	private int codigo;
+	private String nomeFantasia;
+	private Calendar dataAbertura;
+	private String status;
+	private String cnpj;
+	
+}

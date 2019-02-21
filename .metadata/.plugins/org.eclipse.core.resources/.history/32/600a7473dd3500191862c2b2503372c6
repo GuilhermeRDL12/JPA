@@ -1,0 +1,14 @@
+package br.com.fiap.entity;
+
+/**
+ * 
+ * T_EMPRESA
+ * 		*cd_empresa (NUMBER)  (PK)
+ * 		*nm_fantasia (VARCHAR(50))
+ *		 dt_abertura (DATE)
+ *       ds_status   (NUMBER) (Enum)
+ */
+
+public class Empresa {
+
+}

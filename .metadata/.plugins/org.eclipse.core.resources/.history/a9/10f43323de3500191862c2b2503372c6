@@ -1,0 +1,15 @@
+package br.com.fiap.entity;
+
+/**
+ * 
+ * T_EMPRESA
+ * 		*cd_empresa (NUMBER)  (PK) (Sequence SQ_T_EMPRESA)
+ * 		*nm_fantasia (VARCHAR(50))
+ *		 dt_abertura (DATE)
+ *       ds_status   (VARCHAR) (Enum)
+ *      *nr_cnpj (VARCHAR(18))
+ */
+
+public class Empresa {
+
+}
